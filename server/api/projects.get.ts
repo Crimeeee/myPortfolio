@@ -2,22 +2,22 @@ import type { D1Database } from "@cloudflare/workers-types";
 
 const local_projects: Project[] = [
 	{
-		name: "tougrel.dev",
-		author: true,
+		name: "Aura",
+		author: false,
 		author_name: "Tougrel",
 		description:
-			"A personal portfolio and blog website to share my work. It will become something bigger as time goes on!",
+			"Aura is a feature-rich bot including a fun leveling system, an amazing economy system, tools to moderate your server along with a modern dashboard, and many others! All in set with ease of use.",
 		links: [
 			{
 				name: "Website",
 				icon: "mdi:web",
-				to: "https://tougrel.dev",
+				to: "https://auragroup.dev",
 				active: true,
 			},
 			{
 				name: "Github",
 				icon: "mdi:github",
-				to: "https://github.com/Tougrel/tougrel.dev",
+				to: "https://github.com/AuraDevelopers",
 				active: true,
 			},
 		],

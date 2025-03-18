@@ -1,13 +1,13 @@
 import type { D1Database } from "@cloudflare/workers-types";
 
 const local_user: User = {
-	name: "Tougrel",
-	avatar_url: "https://cdn.tougrel.dev/gateway/profiles/tougrel.webp",
+	name: "Crime",
+	avatar_url: "https://cdn.karafylles.me/Dev.jpg",
 	social: [
 		{
 			icon: "mdi:email",
-			value: "me@tougrel.dev",
-			to: "mailto:me@tougrel.dev",
+			value: "me@karafylles.me",
+			to: "mailto:me@karafylles.me",
 			colors: {
 				base: "text-primary-700",
 				hover: "hover:text-primary-500",
@@ -15,8 +15,8 @@ const local_user: User = {
 		},
 		{
 			icon: "mdi:github",
-			value: "Tougrel",
-			to: "https://github.com/Tougrel",
+			value: "Crimeeee",
+			to: "https://github.com/Crimeeee",
 			colors: {
 				base: "text-gray-500",
 				hover: "hover:text-gray-400",
@@ -24,8 +24,8 @@ const local_user: User = {
 		},
 		{
 			icon: "mdi:discord",
-			value: "Workshop",
-			to: "https://discord.gg/8etg59B5eM",
+			value: "crime.01",
+			to: "",
 			colors: {
 				base: "text-discord",
 				hover: "hover:text-discord",
@@ -33,8 +33,8 @@ const local_user: User = {
 		},
 		{
 			icon: "mdi:twitter",
-			value: "@Tougrel",
-			to: "https://twitter.com/Tougrel",
+			value: "@CrimeDev",
+			to: "https://x.com/CrimeDev",
 			colors: {
 				base: "text-twitter",
 				hover: "hover:text-twitter",
