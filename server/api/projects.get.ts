@@ -2,6 +2,38 @@ import type { D1Database } from "@cloudflare/workers-types";
 
 const local_projects: Project[] = [
 	{
+		name: "Leaderboard",
+		author: true,
+		author_name: "Crime",
+		description:
+			"I created a custom Leaderboard that provides players with real-time information such as Online Users as well as Server Teams, highlighting the top 3 with a dierent color to make them stand out.",
+		links: [
+			{
+				name: "Github",
+				icon: "mdi:github",
+				to: "https://github.com/Crimeeee",
+				active: true,
+			},
+		],
+	},
+
+	{
+		name: "FiveM DiscordBot",
+		author: true,
+		author_name: "Crime",
+		description:
+			"I made a Discord Bot, which was purely for a FiveM Discord Server and helped the user with any questions they had, because with one command they could see the Online Players the Server had without entering the game.",
+		links: [
+			{
+				name: "Github",
+				icon: "mdi:github",
+				to: "https://github.com/Crimeeee/DejaVu",
+				active: true,
+			},
+		],
+	},
+
+	{
 		name: "Aura",
 		author: false,
 		author_name: "Tougrel",
@@ -18,6 +50,22 @@ const local_projects: Project[] = [
 				name: "Github",
 				icon: "mdi:github",
 				to: "https://github.com/AuraDevelopers",
+				active: true,
+			},
+		],
+	},
+
+	{
+		name: "cfxStatus UnofficialBot",
+		author: false,
+		author_name: "vaggos",
+		description:
+			"cfxStatus is a DiscordBot that every user can have in their personal Discord Server to see when the FiveM Servers are Down and when they are UP.",
+		links: [
+			{
+				name: "Discord",
+				icon: "mdi:discord",
+				to: "https://discord.gg/xq5TXy3vfc",
 				active: true,
 			},
 		],

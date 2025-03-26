@@ -1,7 +1,7 @@
 import type { D1Database } from "@cloudflare/workers-types";
 
 const local_user: User = {
-	name: "Crime",
+	name: "K.Karafylles",
 	avatar_url: "https://cdn.karafylles.me/Dev.jpg",
 	social: [
 		{
@@ -32,9 +32,9 @@ const local_user: User = {
 			},
 		},
 		{
-			icon: "mdi:twitter",
-			value: "@CrimeDev",
-			to: "https://x.com/CrimeDev",
+			icon: "mdi:linkedin",
+			value: "Konstantinos Karafylles",
+			to: "https://www.linkedin.com/in/konstantinos-karafylles-2171b130a/",
 			colors: {
 				base: "text-twitter",
 				hover: "hover:text-twitter",
