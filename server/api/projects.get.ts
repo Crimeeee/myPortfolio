@@ -2,7 +2,25 @@ import type { D1Database } from "@cloudflare/workers-types";
 
 const local_projects: Project[] = [
 	{
+		name: "About Me",
+		aboutMe: true,
+		author: false,
+		author_name: "Crime",
+		description:
+			"I am a Junior Software Developer with 2 years of experience in software development, maintenance and support. I am procient in JavaScript, Python, HTML, CSS and SQL Basics and am skilled in analyzing and solving problems related to application performance and functionality.",
+		links: [
+			{
+				name: "Github",
+				icon: "mdi:github",
+				to: "https://github.com/Crimeeee",
+				active: true,
+			},
+		],
+	},
+
+	{
 		name: "Leaderboard",
+		aboutMe: false,
 		author: true,
 		author_name: "Crime",
 		description:
@@ -19,6 +37,7 @@ const local_projects: Project[] = [
 
 	{
 		name: "FiveM DiscordBot",
+		aboutMe: false,
 		author: true,
 		author_name: "Crime",
 		description:
@@ -35,6 +54,7 @@ const local_projects: Project[] = [
 
 	{
 		name: "Aura",
+		aboutMe: false,
 		author: false,
 		author_name: "Tougrel",
 		description:
@@ -57,6 +77,7 @@ const local_projects: Project[] = [
 
 	{
 		name: "cfxStatus UnofficialBot",
+		aboutMe: false,
 		author: false,
 		author_name: "vaggos",
 		description:
@@ -111,6 +132,7 @@ export default defineEventHandler(async (event) => {
 interface Project {
 	name: string;
 	author: boolean;
+	aboutMe: boolean;
 	author_name: string;
 	description: string;
 	links: string | ProjectLinks[];

@@ -2,7 +2,7 @@ import type { D1Database } from "@cloudflare/workers-types";
 
 const local_user: User = {
 	name: "K.Karafylles",
-	avatar_url: "https://cdn.karafylles.me/Dev.jpg",
+	avatar_url: "https://cdn.karafylles.me/karafylles.jpg",
 	social: [
 		{
 			icon: "mdi:email",
@@ -15,7 +15,7 @@ const local_user: User = {
 		},
 		{
 			icon: "mdi:github",
-			value: "Crimeeee",
+			value: "Karafylles Konstantinos",
 			to: "https://github.com/Crimeeee",
 			colors: {
 				base: "text-gray-500",

@@ -65,6 +65,7 @@ defineOgImage({
 				:name="project.name"
 				:description="project.description"
 				:author="project.author"
+				:about-me="project.aboutMe"
 			>
 				<UTooltip v-for="link in project.links" :text="link.name">
 					<ULink :to="link.to" external="" :aria-label="link.name">
