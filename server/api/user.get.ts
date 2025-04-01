@@ -1,5 +1,6 @@
 import type { D1Database } from "@cloudflare/workers-types";
 
+// TODO: Add more Projects!
 const local_user: User = {
 	name: "K.Karafylles",
 	avatar_url: "https://cdn.karafylles.me/karafylles.jpg",
