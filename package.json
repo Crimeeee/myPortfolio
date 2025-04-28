@@ -21,7 +21,7 @@
 		"@cloudflare/workers-types": "^4.20250321.0",
 		"@iconify-json/mdi": "^1.1.66",
 		"@nuxt/devtools": "^2.3.2",
-		"@nuxt/fonts": "^0.11.0",
+		"@nuxt/fonts": "^0.11.2",
 		"@nuxt/icon": "^1.11.0",
 		"@nuxt/image": "^1.10.0",
 		"@nuxt/ui": "^2.15.2",
